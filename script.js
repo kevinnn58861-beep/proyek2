@@ -2,8 +2,8 @@ function initProyek() {
     const garden = document.getElementById('flower-garden');
     const fallingContainer = document.getElementById('falling-leaves');
     
-    // 1. Membuat Pohon Hati yang Sangat Rimbun (8000 Bunga)
-    const flowerCount = 8000;
+    // 1. Membuat Pohon Hati yang Sangat Rimbun (850 Bunga)
+    const flowerCount = 850;
     for (let i = 0; i < flowerCount; i++) {
         const flower = document.createElement('div');
         flower.className = 'flower';
